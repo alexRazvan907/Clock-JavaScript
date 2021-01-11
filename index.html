@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div id="day">
+        <h4 data-val="1">MONDAY</h4>
+        <h4 data-val="2">TUESDAY</h4>
+        <h4 data-val="3">WEDNESDAY</h4>
+        <h4 data-val="4">THURSDAY</h4>
+        <h4 data-val="5">FRIDAY</h4>
+        <h4 data-val="6">SATURDAY</h4>
+        <h4 data-val="7">SUNDAY</h4>
+        
+        <!--
+        <a href="#" data-val="1">MONDAY</a>
+        <a href="#" data-val="2">TUESDAY</a>
+        <a href="#" data-val="3">WEDNESDAY</a>
+        <a href="#" data-val="4">THURSDAY</a>
+        <a href="#" data-val="5">FRIDAY</a>
+        <a href="#" data-val="6">SATURDAY</a>
+        <a href="#" data-val="0">SUNDAY</a>
+        -->
+
+    </div>
+
+    <h1 id="currentTime"></h1>
+    <div class=img-fluid>
+    <img src="img/dominik-lange-Lej_oqHljbk-unsplash.jpg">
+</div>
+<div class="button">
+    <a href="#" class="hour12" id="ampm" onclick="amFormat()">12 Hour</a>;
+    <a href="#" class="military" id="military" onclick="militaryFormat()">Military</a>;
+</div>
+    
+    <script src="scripts.js"></script>
+    
+</body>
+</html>

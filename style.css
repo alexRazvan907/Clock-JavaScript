@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+#currentTime {
+    text-align: center;
+    width: 100%;
+    margin-top: 20%;
+    font-size: 8vw;
+    position: absolute;
+    color: white;
+}
+
+.img-fluid img{
+    width: 100%;
+}
+
+#day {
+    display: flex;
+    flex-direction: row;
+    margin-left: 18%;
+    font-size: 2vw;
+    position: absolute;
+    color: white;
+    margin-top: 15%;
+}
+
+#day h4+ h4{
+    margin-left: 20px;
+}
+.button {
+    margin-top: 35%;
+    position: absolute;
+    top: 0;
+    margin-left: 42%;
+}
+.button a{
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+    margin-left: 20px;
+}
+.hour12 {
+    margin-left: 120px;
+}
